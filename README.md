@@ -2,10 +2,9 @@
 ## How to run
 ### Boot a server
 This commend includes a setting from `CarlaSettings.ini`
-`sh /home/jd730/start.sh`
 
 ### Run a test code
-`python3 /home/jdhwang/Dual_RL_CV/init_exps/share/ver3/exp_env/envs/carla_env/test_carlaenv.py`
+`python3 test_carlaenv.py`
 
 ### code in carla_env
 #### carla.py
@@ -89,4 +88,3 @@ y : others
 1. id
 2. speed_limit_sign.transform
 3. speed_limit_sign.speed_limit  (float, m/s)
-
