@@ -21,10 +21,10 @@ copied from CARLA PythonClient libraries
 1. **steer** float, [-1.0, 1.0]. 
 Maximum range depends of car (e.g. Mustang 70 degrees)
 2. **throttle**
-	float, [ 0.0, 1.0]
-3. **brake**, float, [ 0.0, 1.0]
-4.  **hand_brake** (BOOLEAN)
-5. **reverse**  (BOOLEAN)
+	float, [ 0.0, 1.0] (CARLA only consider its absolute value)
+3. **brake**, float, [ 0.0, 1.0] (CARLA only consider its absolute value)
+4.  **hand_brake** (BOOLEAN but if |value| >=1 set to True o.w. False) 
+5. **reverse**  (BOOLEAN but if |value| >=1 set to True o.w. False)
 
 ### Measurement
 http://carla.readthedocs.io/en/latest/measurements/
