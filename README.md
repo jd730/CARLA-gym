@@ -1,4 +1,4 @@
-# CARLA
+# CARLA (made for v 0.8.1)
 ## How to run
 ### Boot a server
 This commend includes a setting from `CarlaSettings.ini`
